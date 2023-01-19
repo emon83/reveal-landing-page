@@ -1,0 +1,67 @@
+/* variable define */
+:root{
+    --primary : #0c2e8a;
+    --secondary: #50d8af;
+}
+
+.banner-img-1{
+    background-image: url("../image/carousel/3.jpg");
+    height: 100vh;
+}
+.banner-img-2{
+    background-image: url("../image/carousel/4.jpg");
+    height: 100vh;
+}
+.banner-img-3{
+    background-image: url("../image/carousel/5.jpg");
+    height: 100vh;
+}
+.client-image{
+    width: 160px;
+}
+
+/* navbar section */
+nav .primary,
+div .primary,
+div p .primary,
+div h1 .primary,
+section .service-title,
+.clients-title,
+.team-title,
+.card-title,
+.contract-title,
+.phone-primary {
+    color: var(--primary);
+}
+nav .secondary,
+div .secondary,
+.container i,
+.service-card-title,
+.phone-secondary {
+    color: var(--secondary);
+}
+
+/* banner section */
+.banner-img-1{
+    background-image: url(../image/carousel/3.jpg);
+    height: 100vh;
+}
+.banner-img-2{
+    background-image: url(../image/carousel/2.jpg);
+    height: 100vh;
+}
+.banner-img-3{
+    background-image: url(../image/carousel/5.jpg);
+    height: 100vh;
+}
+
+/* client section */
+.client-image{
+    width: 150px;
+}
+/* call section */
+.call-section{
+    background-color: var(--primary);
+}
+
+/*  */
